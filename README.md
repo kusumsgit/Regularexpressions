@@ -26,6 +26,6 @@ Regular expression are very useful in extracting information from text such as c
 Answer: (\w+\s*(\d+)) : \w+  for any alphaneumeric character repeated one or more time then \s* for whitespace used zero or more times 
 and \d+ means any digit for 1 or more times.
 
-(.*) capture all
+17. (.*) capture all
 
-| pipe is used for OR
+18. | pipe is used for as an OR logical expression
