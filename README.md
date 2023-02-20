@@ -17,10 +17,10 @@ Regular expression are very useful in extracting information from text such as c
 14. ^ (hat) and $ (dollar) sign to match the starting and end of the line. ^ is different than [^]
 15. () captures group and (a(bc)) captures subgroup
 example of capturing groups and subgroups is as follows: 
-Text	              Capture Groups	 
-Capture	Jan 1987	  Jan 1987 1987	
-Capture	May 1969	  May 1969 1969	
-Capture	Aug 2011	  Aug 2011 2011
+# Text	            |    Capture Groups	 
+Capture	Jan 1987	 |  Jan 1987 1987	
+Capture	May 1969	 | May 1969 1969	
+Capture	Aug 2011	 |  Aug 2011 2011
 Answer: (\w+\s*(\d+)) : \w+  for any alphaneumeric character repeated one or more time then \s* for whitespace used zero or more times 
 and \d+ means any digit for 1 or more times.
 (.*) capture all
