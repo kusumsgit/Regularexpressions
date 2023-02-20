@@ -1,4 +1,4 @@
-## Regularexpressions
+## Regular Expressions
 Regular expression are very useful in extracting information from text such as code, log files, spreadsheets, or even documents. 
 1. Letters abc etc.
 2. \d can be used in place of any digit from 0 to 9.
@@ -15,13 +15,8 @@ Regular expression are very useful in extracting information from text such as c
 12. \s any whitespace character
 13. \S any non-whitespace character
 14. ^ (hat) and $ (dollar) sign to match the starting and end of the line. ^ is different than [^]
-15. () captures group and (a(bc)) captures subgroup
-example of capturing groups and subgroups is as follows: 
-## Amost always imports
-
-|  R |  Python |    Matlab |
-| --------- |:---|:---------|:-----|
-| library(tidyverse) |import numpy as np|
+15. () captures group and (a(bc)) captures subgroup example of capturing groups and subgroups is below. 
+|Text|Capture Groups|
 
 Answer: (\w+\s*(\d+)) : \w+  for any alphaneumeric character repeated one or more time then \s* for whitespace used zero or more times 
 and \d+ means any digit for 1 or more times.
