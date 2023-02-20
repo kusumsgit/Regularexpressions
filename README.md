@@ -18,6 +18,8 @@ Regular expression are very useful in extracting information from text such as c
 15. () captures group and (a(bc)) captures subgroup example of capturing groups and subgroups is below. 
 
 |Text|Capture Groups|
+|------|------------|
+|Capture| 1987|
 
 Answer: (\w+\s*(\d+)) : \w+  for any alphaneumeric character repeated one or more time then \s* for whitespace used zero or more times 
 and \d+ means any digit for 1 or more times.
