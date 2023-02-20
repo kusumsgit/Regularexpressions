@@ -19,7 +19,9 @@ Regular expression are very useful in extracting information from text such as c
 
 |Text|Capture Groups|
 |------|------------|
-|Capture| 1987|
+|Capture	Jan 1987	 |  Jan 1987 1987	|
+|Capture	May 1969	 | May 1969 1969	|
+|Capture	Aug 2011	 |  Aug 2011 2011 |
 
 Answer: (\w+\s*(\d+)) : \w+  for any alphaneumeric character repeated one or more time then \s* for whitespace used zero or more times 
 and \d+ means any digit for 1 or more times.
