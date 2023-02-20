@@ -9,8 +9,8 @@ Regular expression are very useful in extracting information from text such as c
 6. a{3} or b{3,5} it shows repetition of a 3 times and b 3 to 5 times. .{2,6} means repetition of any character 2 to 6 times.
 7. \w any Alphaneumeric 
 8. \W any non-alphanumerc
-9. * Zero or more repetition
-10. + one or more repetition
+9. The symbol (*) Zero or more repetition
+10. They symbol (+) one or more repetition
 11. ? This metacharacter allows you to match either zero or one of the preceding character or group. To skip ? use \?
 12. \s any whitespace character
 13. \S any non-whitespace character
