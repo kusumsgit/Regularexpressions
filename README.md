@@ -30,4 +30,7 @@ and \d+ means any digit for 1 or more times.
 
 18. | pipe is used for as an OR logical expression
 19. (+) is used for one or more repetations
-
+()	Groups regular expressions
+\	Represent special characters
+^	matches start of string
+\+	Matches one or more occurrence of the previous character
