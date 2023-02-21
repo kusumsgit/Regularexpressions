@@ -33,4 +33,5 @@ and \d+ means any digit for 1 or more times.
 ()	Groups regular expressions
 \	Represent special characters
 ^	matches start of string
+In order to determine value of a variable, use the command echo $VARIABLE
 \+	Matches one or more occurrence of the previous character
