@@ -29,3 +29,5 @@ and \d+ means any digit for 1 or more times.
 17. (.*) capture all
 
 18. | pipe is used for as an OR logical expression
+19. (+) is used for one or more repetations
+
