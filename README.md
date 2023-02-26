@@ -29,9 +29,3 @@ and \d+ means any digit for 1 or more times.
 17. (.*) capture all
 
 18. | pipe is used for as an OR logical expression
-19. (+) is used for one or more repetations
-()	Groups regular expressions
-\	Represent special characters
-^	matches start of string
-In order to determine value of a variable, use the command echo $VARIABLE
-\+	Matches one or more occurrence of the previous character
